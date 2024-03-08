@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import HeaderSection from "./Components/HeaderSection";
+import './App.css'
 function App() {
+  let metaData = {
+    colors:{
+      testGray: "#A5A19C",
+      gray: "#A3A29E",
+      pinkRed: "#9A1F48"
+
+
+    }
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <HeaderSection metaData={metaData} />
     </div>
   );
 }
