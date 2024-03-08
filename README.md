@@ -28,6 +28,7 @@ In this project, i have created a dynamic web page using ReactJS, divided into t
 ## Tech. Stack Used:
 + [React](https://react.dev/)
 + [Google Fonts](https://fonts.google.com/)
++ [Font Awesome Icons](https://fontawesome.com/)
 
 ## Author
 [Abhishek kumar](https://www.linkedin.com/in/alex21c/), ([Geekster](https://geekster.in/) MERN Stack FS-14 Batch)
