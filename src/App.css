@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 header ul#primaryNavigation>li{
   padding:1rem;
   min-width: 20rem;
