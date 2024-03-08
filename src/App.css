@@ -41,4 +41,160 @@ div#containerImgFamilyWellness{
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -12rem;
+  overflow: hidden;
+  /* background-color: lightgreen; */
 }
+
+
+@media screen and (max-width:1670px){
+  header ul#primaryNavigation>li{
+    min-width: 15rem;
+  }
+}
+
+@media screen and (max-width:1270px){
+  header ul#primaryNavigation>li{
+    min-width: 12rem;
+  }
+
+  div#containerImgFamilyWellness{
+    height: 30rem;
+    background-position-y: -7rem;
+  }
+
+}
+
+@media screen and (max-width:1130px){
+  div#containerImgFamilyWellness{
+    height: 27rem;
+  }
+}
+
+@media screen and (max-width:1040px){
+  header ul#primaryNavigation>li{
+    min-width: 10rem;
+  }
+}
+
+@media screen and (max-width:930px){
+  div#containerImgFamilyWellness{
+    height: 25rem;
+    background-position-y: -5rem;
+  }
+}
+@media screen and (max-width:884px){
+  header ul#primaryNavigation>li{
+    min-width: 9rem;
+  }
+}
+
+@media screen and (max-width:818px){
+  div#containerImgFamilyWellness{
+    height: 22rem;
+  }
+}
+
+@media screen and (max-width:790px){
+  header ul#primaryNavigation>li{
+    min-width: 8rem;
+  }
+  div#containerImgFamilyWellness{
+    height: 20rem;
+  }
+
+  div#divThinkHealthThinkMessage h2{
+    font-size:2.3rem;
+  }
+}
+
+@media screen and (max-width:710px){
+  ul#primaryNavigation, div#divThinkHealthThinkMessage>ul{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:682px){
+  div#containerImgFamilyWellness{
+    background-position-y: -7rem;
+    background-position-x: -7rem;
+    height: 40rem;
+    margin-bottom: -7rem;
+
+  }
+  div.wrapperChevronsLeftAndRight {
+    bottom:8rem;
+
+  }
+}
+
+@media screen and (max-width:628px){
+
+  div#divThinkHealthThinkMessage h2{
+    font-size:2rem;
+  }
+
+  div.wrapperBodySection{
+    gap:1rem;
+  }
+}
+
+@media screen and (max-width:600px){
+  div#containerImgFamilyWellness{
+    background-position-x: -9rem;
+
+  }
+
+}
+
+@media screen and (max-width:500px){
+  div#containerImgFamilyWellness{
+    background-position-x: -13rem;
+
+  }
+
+}
+
+@media screen and (max-width:442px){
+  header div.wrapperH1andH2 h1{
+    font-size: 2.7rem;
+  }
+  header div.wrapperH1andH2 h2{
+    font-size:1.8rem;
+  }
+  ul#primaryNavigation{
+    font-size: 1rem;
+  }
+  header ul#primaryNavigation>li{
+    padding:.5rem;
+  }
+  div.wrapperApp{
+    padding: 0.7rem;
+  }
+  div.wrapperThreeParagraphs{
+    padding: 0.7rem;
+  }
+  div.wrapperThreeParagraphs p{
+    max-width: 100%;
+    /* background-color: lightblue; */
+  }
+  h2.familyWellnessMassageTherapy,div#divThinkHealthThinkMessage h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width:400px){
+  div#containerImgFamilyWellness{
+    background-position-x: -15rem;
+
+  }
+
+}
+
+@media screen and (max-width:320px){
+  div#containerImgFamilyWellness{
+    background-position-x: -17rem;
+
+  }
+
+}
+

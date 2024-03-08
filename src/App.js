@@ -5,7 +5,7 @@ import './App.css'
 import './Assests/fontAwesomeProIcons/fontAwesomeIcons.css'
 function App() {
   return (
-    <div class='pt-[1rem] p-[2rem]'>
+    <div class='wrapperApp pt-[1rem] p-[2rem]'>
       <HeaderSection />
       <BodySection />
       <FooterSection />
