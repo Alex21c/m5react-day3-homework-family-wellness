@@ -22,8 +22,11 @@ In this project, i have created a dynamic web page using ReactJS, divided into t
 
 
 ## How to install and run on yours local machine
-`npm install`
-`npm run start`
+```bash
+npm install
+npm run start
+```
+
 
 ## Tech. Stack Used:
 + [React](https://react.dev/)
