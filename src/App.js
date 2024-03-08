@@ -1,18 +1,14 @@
 import HeaderSection from "./Components/HeaderSection";
+import BodySection from "./Components/BodySection";
+import FooterSection from "./Components/FooterSection";
 import './App.css'
+import './Assests/fontAwesomeProIcons/fontAwesomeIcons.css'
 function App() {
-  let metaData = {
-    colors:{
-      testGray: "#A5A19C",
-      gray: "#A3A29E",
-      pinkRed: "#9A1F48"
-
-
-    }
-  }
   return (
-    <div>
-      <HeaderSection metaData={metaData} />
+    <div class='pt-[1rem] p-[2rem]'>
+      <HeaderSection />
+      <BodySection />
+      <FooterSection />
     </div>
   );
 }
